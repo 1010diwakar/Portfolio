@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. [Sister's Name] - Pediatrician</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f9fbfd;
+      color: #333;
+    }
+    header {
+      background: #0077b6;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin-top: 5px;
+      font-size: 1.2em;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #0077b6;
+      border-bottom: 2px solid #90e0ef;
+      padding-bottom: 5px;
+    }
+    .timeline {
+      margin: 20px 0;
+      padding-left: 20px;
+    }
+    .timeline li {
+      margin-bottom: 15px;
+    }
+    .specializations ul {
+      list-style: square;
+      padding-left: 20px;
+    }
+    .profile-pic {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+    .profile-pic img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #0077b6;
+    }
+    .contact a {
+      color: #0077b6;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+    button {
+      padding: 10px;
+      background-color: #0077b6;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+    }
+    button:hover {
+      background-color: #005f87;
+    }
+    footer {
+      background: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 15px 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dr. [Sister's Full Name]</h1>
+    <p>MBBS | DNB Pediatrics | DLK (Max Hospital, Delhi)</p>
+    <p>Pediatrician | Child Specialist</p>
+  </header>
+
+  <section class="profile-pic">
+    <img src="profile.jpg" alt="Dr. [Sister's Full Name] Profile Picture">
+  </section>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I am a dedicated Pediatrician with extensive experience in child healthcare, neonatal care, and pediatric emergencies. I have served as a Senior Resident Doctor at AIIMS Gorakhpur and worked with Greenland Hospital, Gorakhpur UP. Passionate about ensuring the growth, development, and well-being of children.</p>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <ul class="timeline">
+      <li><strong>MBBS</strong> – [University Name]</li>
+      <li><strong>DNB Pediatrics</strong> – [Institute Name]</li>
+      <li><strong>DLK</strong> – Max Hospital, Delhi</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <ul class="timeline">
+      <li><strong>Senior Resident Doctor</strong> – AIIMS Gorakhpur</li>
+      <li><strong>Pediatrician</strong> – Greenland Hospital, Gorakhpur UP</li>
+    </ul>
+  </section>
+
+  <section class="specializations">
+    <h2>Specializations</h2>
+    <ul>
+      <li>Child health & wellness</li>
+      <li>Neonatal care</li>
+      <li>Pediatric emergencies</li>
+      <li>Growth & development monitoring</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:doctor@example.com">doctor@example.com</a></p>
+    <p>Hospital: Max Hospital, Delhi</p>
+
+    <h3>Send a Message</h3>
+    <form action="https://formspree.io/f/yourFormID" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dr. [Sister's Full Name] | Pediatrician</p>
+  </footer>
+</body>
+</html>
